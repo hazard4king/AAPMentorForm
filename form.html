@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="form.css">
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="form.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 
-<div class="container">
-  <form action="/action_page.php">
-    <h2 id="AAPhead">AAP Mentor Form</h2>
-    <div class="row">
-      <div class="col-25">
-        <label for="name">Name</label>
+  <div class="container">
+    <form action="/action_page.php">
+      <h2 id="AAPhead">AAP Mentor Form</h2>
+      <div class="row">
+        <div class="col-25">
+          <label for="name">Name</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="nameID" name="name" placeholder="Your name..">
+        </div>
       </div>
-      <div class="col-75">
-        <input type="text" id="nameID" name="name" placeholder="Your name..">
-      </div>
-    </div>
-    <div class="row">
+      <div class="row">
         <div class="col-25">
           <label for="email">Email-id</label>
         </div>
@@ -28,50 +30,52 @@
           <input type="text" id="emailID" name="email" placeholder="Your email id..">
         </div>
       </div>
-    <div class="row">
+      <div class="row">
         <div class="col-25">
           <label for="leader">Your BITS ID</label>
         </div>
         <div class="col-75">
           <input type="text" id="leaderID" name="leaderID" placeholder="Your BITS ID..">
         </div>
-    </div>
-    <div class="row">
+      </div>
+      <div class="row">
         <div class="col-25">
           <label for="leaderph.">Phone no.</label>
         </div>
         <div class="col-75">
           <input type="text" id="leaderphID" name="leaderphone" placeholder="Your phone number..">
         </div>
-    </div>
-    <div class="row">
+      </div>
+      <div class="row">
         <div class="col-25">
           <label for="othermentor">Enter BITS ID's of other mentors (if applicable) </label>
         </div>
         <div class="col-75">
-          <textarea id="otherMentorID" name="otherMentorid" placeholder="Enter BITS ID.." style="height:80px"></textarea>
+          <textarea id="otherMentorID" name="otherMentorid" placeholder="Enter BITS ID.."
+            style="height:80px"></textarea>
         </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject you'd like to teach</label>
       </div>
-      <div class="col-75">
-        <select id="subjectID" name="subject">
-          <option value="math111">MATH F111</option>
-          <option value="math113">PROBABILITY AND STATISTICS</option>
-          <option value="chem111">CHEM F111</option>
-          <option value="bio111">BIO F111</option>
-          <option value="phy111">PHY F111</option>
-        </select>
+      <div class="row">
+        <div class="col-25">
+          <label for="subject">Subject you'd like to teach</label>
+        </div>
+        <div class="col-75">
+          <select id="subjectID" name="subject">
+            <option value="math111">MATH F111</option>
+            <option value="math113">PROBABILITY AND STATISTICS</option>
+            <option value="chem111">CHEM F111</option>
+            <option value="bio111">BIO F111</option>
+            <option value="phy111">PHY F111</option>
+          </select>
+        </div>
       </div>
-    </div>
-    
-    <div class="row">
-      <input type="submit" value="Submit">
-    </div>
-  </form>
-</div>
+
+      <div class="row">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
 
 </body>
+
 </html>
