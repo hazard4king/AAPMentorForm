@@ -1,0 +1,24 @@
+{
+  "name": "aapmentorform",
+  "version": "1.0.0",
+  "description": "mentor form ",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hazard4king/AAPMentorForm.git"
+  },
+  "author": "Manas Rish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hazard4king/AAPMentorForm/issues"
+  },
+  "homepage": "https://github.com/hazard4king/AAPMentorForm#readme"
+}
